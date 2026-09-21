@@ -1,0 +1,12 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PostCard from "../../components/PostCard.astro";
+import { site } from "../../data/site";
+const posts = (await getCollection("blog")).sort((a,b)=>b.data.publishDate.valueOf()-a.data.publishDate.valueOf());
+const jsonLd={"@context":"https://schema.org","@type":"CollectionPage",name:"Dreemy AI comparisons and safety guides",url:`${site.url}/blog/`,description:"Independent Dreemy AI comparisons, safety checklists, and character-roleplay research.",hasPart:posts.map((post)=>({"@type":"Article",headline:post.data.title,url:`${site.url}/blog/${post.id}/`,datePublished:post.data.publishDate.toISOString()}))};
+---
+<BaseLayout title="Dreemy AI Blog: Review, Comparisons & Safety" description="Independent Dreemy AI guides covering roleplay, characters, bot creation, AI images, video, safety, privacy, Character AI, CrushOn AI, and alternatives." keywords={["Dreemy AI blog","Dreemy AI review","Dreemy AI comparison","Dreemy AI alternatives","Dreemy AI safety"]} jsonLd={jsonLd}>
+  <section class="page-hero"><div class="ambient-orb"></div><span>DREEMY AI RESEARCH LIBRARY</span><h1>Find the character.<br />Understand the tradeoffs.</h1><p>Original comparisons, direct answers, and practical privacy checks for Dreemy AI and the wider AI roleplay category.</p></section>
+  <section class="section blog-list"><div class="post-grid">{posts.map((post,index)=><PostCard post={post} index={index} />)}</div></section>
+</BaseLayout>

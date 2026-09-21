@@ -1,0 +1,16 @@
+---
+import type { CollectionEntry } from "astro:content";
+import Icon from "./Icon.astro";
+import { site } from "../data/site";
+interface Props { posts: CollectionEntry<"blog">[]; }
+const { posts } = Astro.props;
+---
+<footer>
+  <div class="footer-grid">
+    <div><a class="brand" href="/"><span class="brand-icon">D</span><strong>DREEMY<span>AI</span></strong><small>INDEPENDENT GUIDE</small></a><p>Independent research on Dreemy AI roleplay, character discovery, bot creation, image and video tools, privacy, credits, and alternatives.</p></div>
+    <div><h3>Explore</h3><a href="/#features">Dreemy AI features</a><a href="/#compare">Compare alternatives</a><a href="/#privacy">Privacy checklist</a><a href={site.officialUrl} rel="noopener" target="_blank">Official website <Icon name="arrow" /></a></div>
+    <div><h3>Latest guides</h3>{posts.slice(0, 3).map((post) => <a href={`/blog/${post.id}/`}>{post.data.title}</a>)}</div>
+    <div><h3>Information</h3><a href="/about/">About</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/editorial-policy/">Editorial policy</a><a href="/contact/">Contact</a></div>
+  </div>
+  <div class="footer-bottom"><span>© <span data-year>2026</span> Dreemy AI Guide</span><span>Independent · Not affiliated with Dreemy AI</span><span>Adults only · No chat data collected</span></div>
+</footer>
