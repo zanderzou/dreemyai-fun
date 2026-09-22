@@ -54,3 +54,6 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-5;bac
 @media(max-width:640px){
   .hero{min-height:880px}.hero-image{height:57%;object-position:68% top}.hero:after{background:linear-gradient(0deg,#08070d 43%,rgba(8,7,13,.35) 73%,rgba(8,7,13,.08))}.discovery-float{display:none}.hero h1{font-size:clamp(48px,14vw,62px)}.profile-grid>div{min-height:100px}.photo-credit{font-size:8px}.brand strong span{color:#a98bff}
 }
+
+/* Text-led homepage depth for search and answer engines. */
+.seo-copy-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(1.25rem,3vw,2.5rem);margin-top:2rem}.seo-copy-grid article{border-top:1px solid var(--line,rgba(255,255,255,.14));padding-top:1.25rem}.seo-copy-grid h3{margin:0 0 .8rem;font-size:clamp(1.15rem,2vw,1.45rem)}.seo-copy-grid p{color:var(--muted,#b8b8c6);line-height:1.8;margin:.75rem 0}.seo-copy-grid strong{color:inherit}@media(max-width:860px){.seo-copy-grid{grid-template-columns:1fr}}
