@@ -1,0 +1,34 @@
+# Dreemy AI Guide
+
+> An independent Dreemy AI guide to character roleplay, bot creation, AI images and video, privacy, credits, safety, and leading alternatives.
+
+Canonical publication: https://dreemyai.fun/
+
+This is an independent editorial publication, not the official provider. Articles distinguish published provider information from suggested evaluation methods. Examples and proposed tests are not measured benchmark results. Check dated sources and live provider terms for changing features and prices.
+
+## Main pages
+
+- [Homepage](https://dreemyai.fun/): Overview and practical decision guidance.
+- [Blog and comparisons](https://dreemyai.fun/blog/): Browse the editorial article collection.
+
+## Comparisons
+
+- [Dreemy AI vs Candy AI: Features, Strengths, Weaknesses](https://dreemyai.fun/blog/dreemy-ai-vs-candy-ai/)
+- [Dreemy AI vs Character AI: Which Character Chat Fits You?](https://dreemyai.fun/blog/dreemy-ai-vs-character-ai/)
+- [Dreemy AI vs CrushOn AI: Adult Roleplay Compared](https://dreemyai.fun/blog/dreemy-ai-vs-crushon-ai/)
+- [Dreemy AI vs Janitor AI: Features, Strengths, Weaknesses](https://dreemyai.fun/blog/dreemy-ai-vs-janitor-ai/)
+- [Dreemy AI vs SpicyChat AI: Features, Strengths, Weaknesses](https://dreemyai.fun/blog/dreemy-ai-vs-spicychat-ai/)
+
+## Publication information
+
+- [About](https://dreemyai.fun/about/)
+- [Editorial policy](https://dreemyai.fun/editorial-policy/)
+- [Contact](https://dreemyai.fun/contact/)
+- [Privacy policy](https://dreemyai.fun/privacy/)
+- [Terms](https://dreemyai.fun/terms/)
+
+## Optional
+
+- [XML sitemap](https://dreemyai.fun/sitemap-index.xml): Canonical page inventory.
+- [RSS feed](https://dreemyai.fun/rss.xml): Published article updates.
+- [Robots policy](https://dreemyai.fun/robots.txt): Crawler access directives.
