@@ -5,7 +5,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import Icon from "../components/Icon.astro";
 import PostCard from "../components/PostCard.astro";
 import { site } from "../data/site";
-import heroImage from "../assets/dreemy-adult-swimwear-editorial.jpg";
+import heroImage from "../assets/dreemy-user-fantasy-editorial.jpg";
+import secondaryImage from "../assets/dreemy-user-roleplay-editorial.jpg";
 
 const posts = (await getCollection("blog")).sort((a,b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
 const faqs = [
@@ -24,11 +25,11 @@ const jsonLd = { "@context":"https://schema.org", "@graph":[
 ---
 <BaseLayout title="Dreemy AI Guide: Roleplay, Images, Video & Alternatives" description={site.description} keywords={["Dreemy AI","Dreemy AI review","Dreemy AI roleplay","Dreemy AI characters","Dreemy AI image generator","Dreemy AI video generator","Dreemy AI alternatives"]} jsonLd={jsonLd}>
   <section class="hero" id="discover">
-    <Image class="hero-image" src={heroImage} alt="Adult woman wearing mint swimwear on a beach" widths={[640,960,1280,1536]} sizes="100vw" loading="eager" fetchpriority="high" quality={85} />
+    <Image class="hero-image" src={heroImage} alt="Adult fantasy character in a dark red cinematic portrait" widths={[640,960,1280,1536]} sizes="100vw" loading="eager" fetchpriority="high" quality={85} />
     <div class="hero-glow"></div>
     <div class="hero-copy reveal"><div class="kicker">Independent Dreemy AI field guide</div><h1>Meet your next<span>story obsession.</span></h1><p>Explore Dreemy AI characters, uncensored roleplay, bot creation, AI images, video tools, credits, privacy, and the alternatives worth comparing.</p><div class="hero-actions"><a class="button primary" href="#features">See what it does <Icon name="spark" /></a><a class="button ghost" href="/blog/dreemy-ai-vs-character-ai/">Dreemy vs Character AI</a></div><div class="hero-trust"><span><Icon name="chat" /> Character roleplay</span><span><Icon name="wand" /> Image + video</span><span><Icon name="lock" /> Privacy-aware</span><span>Independent review</span></div></div>
     <div class="discovery-float"><small>TRENDING STORY</small><strong>Midnight getaway</strong><span>Fantasy · Adventure · 18+</span></div>
-    <div class="photo-credit">Photo: <a href="https://www.pexels.com/photo/11455872/" target="_blank" rel="noopener noreferrer">Fran Bertucci / Pexels</a> · no endorsement implied</div>
+    <div class="photo-credit">User-provided adult editorial · no endorsement implied</div>
   </section>
 
   <section class="section intent-grid"><div><div class="section-label">01 / Direct answer</div><h2>What is <span>Dreemy AI?</span></h2></div><div class="intent-copy"><p class="lead">Dreemy AI combines a browsable character library with custom bot creation, adult-oriented roleplay, AI image generation, and AI video tools.</p><p>This independent guide separates visible product features from editorial judgment. Use it to compare character quality, memory, creation controls, media credits, privacy, moderation, and alternatives before registering.</p><div class="keyword-line"><span>Dreemy AI review</span><span>uncensored AI roleplay</span><span>Dreemy AI characters</span><span>AI bot creator</span><span>Dreemy AI alternatives</span></div></div></section>
@@ -46,6 +47,7 @@ const jsonLd = { "@context":"https://schema.org", "@graph":[
 
   <section class="section seo-copy" aria-labelledby="dreemyai-fun-research">
     <div class="section-head"><div><div class="section-label">06 / Detailed Dreemy AI research</div><h2 id="dreemyai-fun-research">A deeper Dreemy AI guide<br/><span>for careful comparison.</span></h2></div><p>This text-led section expands the practical questions people ask after the first product overview.</p></div>
+    <figure class="seo-visual"><Image src={secondaryImage} alt="Adult fantasy character in a white cinematic roleplay scene" widths={[640,960,1280]} sizes="(max-width: 640px) 100vw, 1200px" loading="lazy" quality={84}/><figcaption><span>Roleplay character range</span><strong>Contrast two visual moods when testing character and scene continuity.</strong></figcaption></figure>
     <div class="seo-copy-grid">
       <article><h3>What to evaluate in a Dreemy AI review</h3><p>A useful Dreemy AI review should explain the actual job the product performs: character discovery, uncensored AI roleplay, bot creation, images, and video. Look past headline feature counts and test whether the main workflow stays clear from setup to a usable result.</p><p>Our recommended method is to browse or build a fictional character, run a memory test, then compare media credits. Record setup time, consistency, failed attempts, feature limits, and the real cost of one repeatable session. That creates evidence you can compare instead of relying on marketing language.</p></article>
       <article><h3>Dreemy AI features, cost, and output quality</h3><p>Feature availability and plan limits can change. Before paying, identify which actions are included, which consume credits or tokens, whether retries are charged, and whether exports carry restrictions. A low subscription price can become expensive when the workflow needs repeated generations.</p><p>Quality should mean more than visual polish. Score control, repeatability, continuity, speed, and how often the result is actually usable. Verify current pricing and plan details on the official service at checkout.</p></article>
