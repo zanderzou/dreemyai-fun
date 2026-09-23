@@ -1,5 +1,5 @@
 export const site = {
-  name: "Dreemy AI Guide",
+  name: "Dreemy AI",
   domain: "dreemyai.fun",
   url: "https://dreemyai.fun",
   description: "An independent Dreemy AI guide to character roleplay, bot creation, AI images and video, privacy, credits, safety, and leading alternatives.",

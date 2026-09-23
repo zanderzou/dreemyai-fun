@@ -23,7 +23,7 @@ const jsonLd = { "@context":"https://schema.org", "@graph":[
   { "@type":"FAQPage", mainEntity:faqs.map((faq)=>({"@type":"Question",name:faq.question,acceptedAnswer:{"@type":"Answer",text:faq.answer}})) }
 ]};
 ---
-<BaseLayout title="Dreemy AI Guide: Roleplay, Images, Video & Alternatives" description={site.description} keywords={["Dreemy AI","Dreemy AI review","Dreemy AI roleplay","Dreemy AI characters","Dreemy AI image generator","Dreemy AI video generator","Dreemy AI alternatives"]} jsonLd={jsonLd}>
+<BaseLayout title="Dreemy AI" description={site.description} keywords={["Dreemy AI","Dreemy AI review","Dreemy AI roleplay","Dreemy AI characters","Dreemy AI image generator","Dreemy AI video generator","Dreemy AI alternatives"]} jsonLd={jsonLd}>
   <section class="hero" id="discover">
     <Image class="hero-image" src={heroImage} alt="Adult fantasy character in a dark red cinematic portrait" widths={[640,960,1280,1536]} sizes="100vw" loading="eager" fetchpriority="high" quality={85} />
     <div class="hero-glow"></div>
