@@ -1,0 +1,19 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import {localeList,type LocaleSlug} from "../../data/localized-dreemy";
+import {infoCopy,type InfoKey} from "../../data/localized-info";
+import {localizedUi} from "../../data/localized-ui";
+import {site} from "../../data/site";
+export function getStaticPaths(){const pages:InfoKey[]=["about","contact","editorial-policy","privacy","terms"];return localeList.flatMap((entry)=>pages.map((page)=>({params:{locale:entry.slug,page},props:{localeSlug:entry.slug,page}})));}
+const locale=Astro.props.localeSlug as LocaleSlug;
+const page=Astro.props.page as InfoKey;
+const copy=infoCopy[locale]![page];
+const ui=localizedUi[locale];
+const lang=localeList.find((entry)=>entry.slug===locale)!.code;
+const pageUrl=`${site.url}/${locale}/${page}/`;
+const jsonLd={"@context":"https://schema.org","@type":"WebPage",name:copy.title,description:copy.description,url:pageUrl,inLanguage:lang,isPartOf:{"@id":`${site.url}/#website`}};
+---
+<BaseLayout title={copy.title} description={copy.description} jsonLd={jsonLd}>
+  <header class="locale-info-header"><span>{ui.information} / Dreemy AI</span><h1>{copy.title.split(" | ")[0]}</h1><p>{copy.description}</p></header>
+  <article class="locale-info-content">{copy.sections.map(([heading,paragraphs])=><section><h2>{heading}</h2>{paragraphs.map((paragraph)=><p>{paragraph}</p>)}</section>)}{["editorial-policy","terms","privacy"].includes(page)&&<aside class="locale-policy-links"><a href="https://www.dreemy.ai/terms" target="_blank" rel="noopener noreferrer">Dreemy Terms ↗</a><a href="https://www.dreemy.ai/refund-policy" target="_blank" rel="noopener noreferrer">Dreemy Refund Policy ↗</a><a href="https://www.dreemy.ai/privacy" target="_blank" rel="noopener noreferrer">Dreemy Privacy ↗</a></aside>}</article>
+</BaseLayout>

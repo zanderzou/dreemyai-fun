@@ -1,0 +1,17 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import {localeList,type LocaleSlug} from "../../../data/localized-dreemy";
+import {localizedUi} from "../../../data/localized-ui";
+import {comparisonCopy,comparisonKeys} from "../../../data/localized-articles";
+import {site} from "../../../data/site";
+export function getStaticPaths(){return localeList.map((entry)=>({params:{locale:entry.slug},props:{localeSlug:entry.slug}}));}
+const locale=Astro.props.localeSlug as LocaleSlug;
+const ui=localizedUi[locale];
+const lang=localeList.find((entry)=>entry.slug===locale)!.code;
+const pageUrl=`${site.url}/${locale}/blog/`;
+const jsonLd={"@context":"https://schema.org","@type":"CollectionPage",name:ui.blogHeading,description:ui.blogIntro,url:pageUrl,inLanguage:lang,hasPart:comparisonKeys.map((key)=>({"@type":"Article",headline:comparisonCopy[locale]![key].title,url:`${pageUrl}dreemy-ai-vs-${key}/`}))};
+---
+<BaseLayout title={`${ui.blogHeading} | Dreemy AI`} description={ui.blogIntro} jsonLd={jsonLd}>
+  <header class="locale-info-header"><span>{ui.blogEyebrow}</span><h1>{ui.blogHeading}</h1><p>{ui.blogIntro}</p></header>
+  <section class="section locale-blog-list"><div class="locale-article-grid">{comparisonKeys.map((key,index)=><a href={`/${locale}/blog/dreemy-ai-vs-${key}/`}><span>{String(index+1).padStart(2,"0")}</span><h2>{comparisonCopy[locale]![key].title}</h2><p>{comparisonCopy[locale]![key].description}</p><strong>{ui.read} ↗</strong></a>)}</div></section>
+</BaseLayout>

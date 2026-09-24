@@ -1,11 +1,20 @@
 ---
 import Icon from "./Icon.astro";
 import { site } from "../data/site";
+import { localeList } from "../data/localized-dreemy";
+import { localizedUi } from "../data/localized-ui";
+import { isTranslatedRoute, localePath, type SiteLocale } from "../data/locale-routes";
+const {locale="en"}=Astro.props as {locale?:SiteLocale};
+const copy=locale==="en"?null:localizedUi[locale];
+const base=locale==="en"?"/":`/${locale}/`;
+const current=isTranslatedRoute(Astro.url.pathname)?Astro.url.pathname:"/";
+const languages=[{code:"en",slug:"en",label:"English"},...localeList];
 ---
 <header class="site-header">
-  <a class="brand" href="/" aria-label="Dreemy AI home"><span class="brand-icon">D</span><strong>DREEMY<span>AI</span></strong></a>
-  <nav aria-label="Main navigation"><a href="/#discover">Discover</a><a href="/#features">Features</a><a href="/#compare">Compare</a><a href="/blog/">Guides</a></nav>
-  <a class="official-link" href={site.officialUrl} rel="noopener" target="_blank">Open Dreemy AI <Icon name="arrow" /></a>
-  <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" data-menu-button><Icon name="menu" /></button>
-  <div class="mobile-nav" data-mobile-nav><a href="/#discover">Discover</a><a href="/#features">Features</a><a href="/#compare">Compare</a><a href="/blog/">Guides</a><a href={site.officialUrl} rel="noopener" target="_blank">Official Dreemy AI</a></div>
+  <a class="brand" href={base} aria-label={copy?.home??"Dreemy AI home"}><span class="brand-icon">D</span><strong>DREEMY<span>AI</span></strong></a>
+  <nav aria-label={copy?.nav??"Main navigation"}><a href={`${base}#discover`}>{copy?.explore??"Discover"}</a><a href={`${base}#features`}>{copy?.features??"Features"}</a><a href={`${base}#compare`}>{copy?.compare??"Compare"}</a><a href={`${base}blog/`}>{copy?.blog??"Guides"}</a></nav>
+  <a class="official-link" href={site.officialUrl} rel="noopener" target="_blank">{copy?.official??"Open Dreemy AI"} <Icon name="arrow" /></a>
+  <details class="language-picker"><summary aria-label={locale==="en"?"Choose language":localeList.find((entry)=>entry.slug===locale)?.label}>🌐 {locale==="en"?"EN":localeList.find((entry)=>entry.slug===locale)?.code.toUpperCase()}</summary><div class="language-options">{languages.map((entry)=><a href={localePath(entry.slug as SiteLocale,current)} lang={entry.code} aria-current={locale===entry.slug?"page":undefined}>{entry.label}</a>)}</div></details>
+  <button class="menu-button" type="button" aria-label={copy?.menu??"Open menu"} aria-expanded="false" data-menu-button><Icon name="menu" /></button>
+  <div class="mobile-nav" data-mobile-nav><a href={`${base}#discover`}>{copy?.explore??"Discover"}</a><a href={`${base}#features`}>{copy?.features??"Features"}</a><a href={`${base}#compare`}>{copy?.compare??"Compare"}</a><a href={`${base}blog/`}>{copy?.blog??"Guides"}</a><a href={site.officialUrl} rel="noopener" target="_blank">{copy?.official??"Official Dreemy AI"}</a></div>
 </header>
