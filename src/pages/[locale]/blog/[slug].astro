@@ -12,8 +12,8 @@ const ui=localizedUi[locale];
 const lang=localeList.find((entry)=>entry.slug===locale)!.code;
 const pageUrl=`${site.url}/${locale}/blog/dreemy-ai-vs-${key}/`;
 const sourceList=[...competitorSources[key],...dreemySources];
-const jsonLd={"@context":"https://schema.org","@type":"Article",headline:copy.title,description:copy.description,url:pageUrl,mainEntityOfPage:pageUrl,inLanguage:lang,datePublished:"2026-09-24",dateModified:"2026-09-24",author:{"@type":"Organization",name:site.author,url:site.url},publisher:{"@type":"Organization",name:site.name,url:site.url},citation:sourceList.map((source)=>source.url)};
+const jsonLd={"@context":"https://schema.org","@type":"Article",headline:copy.title,description:copy.description,url:pageUrl,mainEntityOfPage:pageUrl,inLanguage:lang,datePublished:"2026-09-25",dateModified:"2026-09-25",author:{"@type":"Organization",name:site.author,url:site.url},publisher:{"@type":"Organization",name:site.name,url:site.url},citation:sourceList.map((source)=>source.url)};
 ---
-<BaseLayout title={copy.title} description={copy.description} type="article" publishedTime="2026-09-24" modifiedTime="2026-09-24" jsonLd={jsonLd}>
+<BaseLayout title={copy.title} description={copy.description} type="article" publishedTime="2026-09-25" modifiedTime="2026-09-25" jsonLd={jsonLd}>
   <article class="locale-article"><header><span class="section-label">{ui.blogEyebrow}</span><h1>{copy.title}</h1><p class="locale-article-intro">{copy.intro}</p></header><div class="locale-article-body">{copy.sections.map(([heading,paragraphs])=><section><h2>{heading}</h2>{paragraphs.map((paragraph)=><p>{paragraph}</p>)}</section>)}<section class="locale-verdict"><h2>{ui.decision}</h2><p>{copy.verdict}</p></section></div><section class="locale-article-sources"><h2>{ui.sources}</h2><ul>{sourceList.map((source)=><li><a href={source.url} target="_blank" rel="noopener noreferrer">{source.name} ↗</a></li>)}</ul></section><a class="locale-back" href={`/${locale}/blog/`}>← {ui.back}</a></article>
 </BaseLayout>

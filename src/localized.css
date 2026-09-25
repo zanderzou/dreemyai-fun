@@ -54,5 +54,6 @@ html[dir=rtl] .locale-article,html[dir=rtl] .locale-info-content,html[dir=rtl] .
 html[dir=rtl] .locale-comparisons>a{grid-template-columns:40px minmax(0,1fr) 20px}
 html[dir=rtl] .language-options{inset:auto calc(100% + 12px) 0 auto}
 html[dir=rtl] .hero-copy{direction:rtl;text-align:start}
+@media(min-width:981px){html[dir=rtl] .locale-hero .hero-copy{display:flex;flex-direction:column;align-items:flex-end}html[dir=rtl] .locale-hero .hero-copy>*{width:min(100%,610px)}}
 @media(max-width:980px){.site-header{grid-template-columns:minmax(0,1fr) auto auto!important;gap:9px!important}.language-picker{justify-self:end}.language-options{inset:calc(100% + 7px) 0 auto auto}html[dir=rtl] .language-options{inset:calc(100% + 7px) auto auto 0}.locale-note-grid{grid-template-columns:1fr}.locale-article-grid{grid-template-columns:1fr}}
 @media(max-width:640px){.site-header .brand strong{font-size:15px}.language-picker summary{min-height:36px;padding:8px}.locale-steps{grid-template-columns:1fr}.locale-info-header{padding:125px 18px 32px}.locale-info-content,.locale-article{width:calc(100% - 36px)}.locale-article{padding-top:115px}.locale-info-header h1,.locale-article h1{font-size:clamp(1.9rem,8vw,2.6rem)}.locale-hero .hero-copy{margin-top:350px}.locale-hero-subhead{font-size:1rem!important}.locale-comparisons>a{padding:16px}}
