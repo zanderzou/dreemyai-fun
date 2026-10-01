@@ -1,12 +1,8 @@
-/** Unpublished Dreemy AI editorial copy. Add routes only after all nine locales and five VS articles per locale pass QA. */
+/** Public locale routes; other completed drafts remain below for later restoration. */
 export const localeList = [
-  {code:"ja",slug:"ja",label:"日本語"}, {code:"ko",slug:"ko",label:"한국어"},
-  {code:"zh-Hant",slug:"zh-hant",label:"繁體中文"}, {code:"es",slug:"es",label:"Español"},
-  {code:"pt-BR",slug:"pt-br",label:"Português (Brasil)"}, {code:"ru",slug:"ru",label:"Русский"},
-  {code:"de",slug:"de",label:"Deutsch"}, {code:"fr",slug:"fr",label:"Français"},
-  {code:"ar",slug:"ar",label:"العربية"},
+  {code:"es",slug:"es",label:"Español"},
 ] as const;
-export type LocaleSlug = typeof localeList[number]["slug"];
+export type LocaleSlug = "ja" | "ko" | "zh-hant" | "es" | "pt-br" | "ru" | "de" | "fr" | "ar";
 export interface DreemyHomeCopy {
   title:string; description:string;
   ui:{discover:string;compare:string;safety:string;articles:string;official:string;language:string;read:string;about:string;privacy:string;skip:string};

@@ -4,7 +4,7 @@ import {fileURLToPath} from "node:url";
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),"..");
 const out=path.join(root,"dist","client");
 const origin="https://dreemyai.fun";
-const locales={ja:"ja",ko:"ko","zh-hant":"zh-Hant",es:"es","pt-br":"pt-BR",ru:"ru",de:"de",fr:"fr",ar:"ar"};
+const locales={es:"es"};
 const keys=["character-ai","crushon-ai","janitor-ai","candy-ai","spicychat-ai"];
 const paths=["/","/blog/","/about/","/contact/","/editorial-policy/","/privacy/","/terms/",...keys.map((key)=>`/blog/dreemy-ai-vs-${key}/`)];
 const expected=new Set(paths.flatMap((route)=>[route,...Object.keys(locales).map((slug)=>`/${slug}${route}`)]));
@@ -42,7 +42,7 @@ for(const file of files){
     for(const [code,href] of want)check(found.get(code)===href,`${route}: ${code} alternate`);
   }
 }
-check(files.length===121,`expected 121 HTML pages, found ${files.length}`);
+check(files.length===25,`expected 25 HTML pages, found ${files.length}`);
 for(const route of expected)check(existsSync(localFile(route)),`missing route ${route}`);
 for(const name of ["robots.txt","sitemap-index.xml","sitemap-0.xml","rss.xml","llms.txt","b8899c5e7bb24988a9bd3ec807e7aaf4.txt"])check(existsSync(path.join(out,name)),`missing ${name}`);
 const sitemap=readFileSync(path.join(out,"sitemap-0.xml"),"utf8");
