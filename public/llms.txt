@@ -11,6 +11,18 @@ This is an independent editorial publication, not the official provider. Article
 - [Homepage](https://dreemyai.fun/): Overview and practical decision guidance.
 - [Blog and comparisons](https://dreemyai.fun/blog/): Browse the editorial article collection.
 
+## Language editions
+
+- [Japanese](https://dreemyai.fun/ja/): Localized homepage, publication pages, and five comparison articles.
+- [Korean](https://dreemyai.fun/ko/): Localized homepage, publication pages, and five comparison articles.
+- [Traditional Chinese](https://dreemyai.fun/zh-hant/): Localized homepage, publication pages, and five comparison articles.
+- [Spanish](https://dreemyai.fun/es/): Localized homepage, publication pages, and five comparison articles.
+- [Brazilian Portuguese](https://dreemyai.fun/pt-br/): Localized homepage, publication pages, and five comparison articles.
+- [Russian](https://dreemyai.fun/ru/): Localized homepage, publication pages, and five comparison articles.
+- [German](https://dreemyai.fun/de/): Localized homepage, publication pages, and five comparison articles.
+- [French](https://dreemyai.fun/fr/): Localized homepage, publication pages, and five comparison articles.
+- [Arabic](https://dreemyai.fun/ar/): Localized homepage, publication pages, and five comparison articles.
+
 ## Comparisons
 
 - [Dreemy AI vs Candy AI: Features, Strengths, Weaknesses](https://dreemyai.fun/blog/dreemy-ai-vs-candy-ai/)

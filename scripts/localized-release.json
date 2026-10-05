@@ -1,0 +1,29 @@
+{
+  "domain": "dreemyai.fun",
+  "keyword": "Dreemy AI",
+  "languages": [
+    "ja",
+    "ko",
+    "zh-hant",
+    "es",
+    "pt-br",
+    "ru",
+    "de",
+    "fr",
+    "ar"
+  ],
+  "addLanguageFooter": false,
+  "metadataOverrides": {
+    "/zh-hant/terms/": "說明 dreemyai.fun 編輯資訊的使用範圍、內容權利及外部服務界線。產品功能、付款和素材條件仍應向實際提供者核對。",
+    "/es/": "Dreemy AI: compara chat con personajes, creación de bots y medios. Revisa memoria, privacidad y costes antes de elegir entre cinco alternativas.",
+    "/pt-br/": "Dreemy AI: compare chat com personagens, criação de bots e mídia. Confira memória, privacidade e custos antes de escolher entre cinco alternativas.",
+    "/ru/": "Dreemy AI: сравните чат с персонажами, создание ботов и медиа. Проверьте память, приватность и расходы перед выбором среди пяти альтернатив.",
+    "/de/": "Dreemy AI: Charakter-Chat, eigene Bots und Medien nach Einsatzzweck vergleichen. Erinnerung, Datenschutz und Kosten vor der Auswahl prüfen.",
+    "/fr/": "Dreemy AI : comparer chat de personnages, création de bots et médias. Examiner mémoire, confidentialité et coûts avant de choisir une alternative.",
+    "/ar/": "Dreemy AI: قارن محادثة الشخصيات وإنشاءها والوسائط بحسب هدفك، وراجع الذاكرة والخصوصية وشروط التكلفة قبل اختيار خدمة مناسبة."
+  },
+  "authorizedAt": "2026-10-05",
+  "exclude": [
+    "spicybox.fun"
+  ]
+}

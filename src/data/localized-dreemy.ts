@@ -1,6 +1,14 @@
 /** Public locale routes; other completed drafts remain below for later restoration. */
 export const localeList = [
-  {code:"es",slug:"es",label:"Español"},
+  {"code":"ja","slug":"ja","label":"日本語"},
+  {"code":"ko","slug":"ko","label":"한국어"},
+  {"code":"zh-Hant","slug":"zh-hant","label":"繁體中文"},
+  {"code":"es","slug":"es","label":"Español"},
+  {"code":"pt-BR","slug":"pt-br","label":"Português"},
+  {"code":"ru","slug":"ru","label":"Русский"},
+  {"code":"de","slug":"de","label":"Deutsch"},
+  {"code":"fr","slug":"fr","label":"Français"},
+  {"code":"ar","slug":"ar","label":"العربية"}
 ] as const;
 export type LocaleSlug = "ja" | "ko" | "zh-hant" | "es" | "pt-br" | "ru" | "de" | "fr" | "ar";
 export interface DreemyHomeCopy {
