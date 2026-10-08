@@ -1,0 +1,86 @@
+{
+  "domain": "dreemyai.fun",
+  "timeZone": "Asia/Shanghai",
+  "policy": "New articles are English-only. Quality review is required before a date can enable a release. Existing publications are preserved.",
+  "articles": [
+    {
+      "order": 1,
+      "slug": "dreemy-vs-nomi-ongoing-fiction",
+      "title": "Dreemy AI vs Nomi: Carrying a Story Across Sessions",
+      "opponent": "Nomi",
+      "readerQuestion": "a character catalog versus a fictional relationship carried across sessions",
+      "releaseAt": "2026-10-08T05:17:20.860Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-08",
+      "reviewedSha256": "ec01e1f820fc4958d56999b010e1b1a3923f322bf2f65750a0ecedb5eaf102eb",
+      "wordCount": 512,
+      "editorialIntent": "Evaluate a serialized fictional relationship using a small canon record and a return-session check.",
+      "sources": [
+        [
+          "Dreemy Official Website",
+          "https://www.dreemy.ai/"
+        ],
+        [
+          "Nomi Backstory+ Guide",
+          "https://wiki.nomi.ai/What_is_Backstory%2B%3F"
+        ]
+      ]
+    },
+    {
+      "order": 2,
+      "slug": "dreemy-vs-kindroid-correcting-persona",
+      "title": "Dreemy AI vs Kindroid: Correct One Persona Fact",
+      "opponent": "Kindroid",
+      "readerQuestion": "correcting one character fact and watching for unwanted side effects",
+      "releaseAt": "2026-10-15T11:26:32.450Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-08",
+      "reviewedSha256": "4bb5dcb183bf09c6bfd81619ef3cbc891bda8b3cfd924b9bfeada0c2e752449c",
+      "wordCount": 487,
+      "editorialIntent": "Make a narrow persona revision and evaluate both the intended change and collateral drift.",
+      "sources": [
+        [
+          "Dreemy Official Website",
+          "https://www.dreemy.ai/"
+        ],
+        [
+          "Kindroid Personality Controls",
+          "https://kindroid.ai/v2/docs/customizing-personality/"
+        ]
+      ]
+    },
+    {
+      "order": 3,
+      "slug": "dreemy-vs-replika-daily-boundaries",
+      "title": "Dreemy AI vs Replika: A Bounded Daily Routine",
+      "opponent": "Replika",
+      "readerQuestion": "discovery and entertainment versus a bounded daily companion routine",
+      "releaseAt": "2026-10-22T13:45:42.433Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-08",
+      "reviewedSha256": "bbdc0bc7f63ab43e1531fadb38f029377565a8fb8c026046398e7d5bed5d98c7",
+      "wordCount": 492,
+      "editorialIntent": "Choose an entertainment or reflective routine that stays within a user-defined time and topic boundary.",
+      "sources": [
+        [
+          "Dreemy Official Website",
+          "https://www.dreemy.ai/"
+        ],
+        [
+          "Replika Getting Started",
+          "https://help.replika.com/hc/en-us/articles/115001095892-How-do-I-begin-Replika"
+        ],
+        [
+          "Replika Privacy Policy",
+          "https://replika.com/legal/privacy/en"
+        ]
+      ]
+    }
+  ]
+}
