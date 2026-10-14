@@ -92,3 +92,13 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-5;bac
 .section-head>p{max-width:none;width:100%;margin:8px 0 0;line-height:1.5}
 @media(max-width:600px){.section{padding-top:24px!important;padding-bottom:24px!important}.section-head{margin-bottom:18px!important}.section-head h2{font-size:clamp(1.7rem,7vw,2.15rem)!important;overflow-wrap:break-word}}
 .section-head h2 span{display:inline}
+/* Mobile first-fold action: retain the portrait and place the button before the long lead. */
+@media(max-width:640px){
+  .hero{align-items:flex-start;min-height:760px;padding-bottom:28px}
+  .hero-copy{display:flex;flex-direction:column;margin-block-start:clamp(255px,36vh,305px)}
+  .hero-copy>p:not(.locale-hero-subhead){order:4;margin-top:12px}
+  .hero-actions{order:3;margin-top:16px}
+  .hero-trust{order:5}
+  .hero h1{margin-block:12px 13px}
+  .locale-hero-subhead{margin:0 0 8px}
+}
