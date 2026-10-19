@@ -1,0 +1,12 @@
+{
+  "domain": "dreemyai.fun",
+  "label": "dreemyai.fun",
+  "origin": "https://dreemyai.fun",
+  "slugs": [
+    "dreemy-credits-subscription-renewal-policy-conflict",
+    "dreemy-public-content-license-model-improvement"
+  ],
+  "articlePrefix": "/blog/",
+  "homePath": "/",
+  "blogPath": "/blog/"
+}
