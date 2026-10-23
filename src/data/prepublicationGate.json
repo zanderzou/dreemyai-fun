@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "domain": "dreemyai.fun",
+  "grandfathered": [
+    {
+      "order": 1,
+      "slug": "dreemy-vs-nomi-ongoing-fiction",
+      "releaseAt": "2026-10-08T05:17:20.860Z",
+      "status": 200,
+      "liveVerifiedAt": "2026-10-23T05:19:50.717Z",
+      "canonical": "https://dreemyai.fun/blog/dreemy-vs-nomi-ongoing-fiction/",
+      "language": "en",
+      "titleMatches": true,
+      "discoveryVerified": true,
+      "sourceCommit": "36133a72eff660f478facd934cafcda398a635e5",
+      "deploymentId": "42056101-6591-41c8-9bbe-f176bac2e6e7",
+      "responseSha256": "766fff313ae600e1951cd61c1815ffededf1df49f86931b07e96bf052eae28ed"
+    },
+    {
+      "order": 2,
+      "slug": "dreemy-vs-kindroid-correcting-persona",
+      "releaseAt": "2026-10-15T11:26:32.450Z",
+      "status": 200,
+      "liveVerifiedAt": "2026-10-23T05:19:50.718Z",
+      "canonical": "https://dreemyai.fun/blog/dreemy-vs-kindroid-correcting-persona/",
+      "language": "en",
+      "titleMatches": true,
+      "discoveryVerified": true,
+      "sourceCommit": "36133a72eff660f478facd934cafcda398a635e5",
+      "deploymentId": "42056101-6591-41c8-9bbe-f176bac2e6e7",
+      "responseSha256": "81e90d5e905692c212411f38ed798882b9ffec2a55d01cb433a2ff36a0bcbad9"
+    },
+    {
+      "order": 3,
+      "slug": "dreemy-vs-replika-daily-boundaries",
+      "releaseAt": "2026-10-22T13:45:42.433Z",
+      "status": 200,
+      "liveVerifiedAt": "2026-10-23T05:19:50.718Z",
+      "canonical": "https://dreemyai.fun/blog/dreemy-vs-replika-daily-boundaries/",
+      "language": "en",
+      "titleMatches": true,
+      "discoveryVerified": true,
+      "sourceCommit": "36133a72eff660f478facd934cafcda398a635e5",
+      "deploymentId": "42056101-6591-41c8-9bbe-f176bac2e6e7",
+      "responseSha256": "ae417b3a49611363de923faaa2006b4c50dd5aaa69a38d1c972a17bcf843ca11"
+    }
+  ],
+  "certificates": {}
+}
