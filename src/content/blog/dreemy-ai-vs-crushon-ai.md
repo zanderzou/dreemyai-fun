@@ -18,8 +18,8 @@ sources:
     url: "https://www.dreemy.ai/"
   - name: "CrushOn.AI official website"
     url: "https://crushon.ai/"
-  - name: "FTC guidance on negative-option subscriptions"
-    url: "https://www.ftc.gov/business-guidance/resources/negative-option-rule"
+  - name: "FTC consumer advice on trials, auto-renewals, and subscriptions"
+    url: "https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions"
 ---
 
 <p class="article-lede">Dreemy AI and CrushOn AI compete more directly than many character-chat products because both speak to adults seeking flexible fictional roleplay. The key difference is emphasis: Dreemy AI visibly connects chat with dedicated image and video tools, while CrushOn AI is commonly evaluated first as a chat and character-creation environment.</p>
