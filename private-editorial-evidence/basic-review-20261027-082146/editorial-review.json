@@ -1,0 +1,17 @@
+{
+  "domain": "dreemyai.fun",
+  "slug": "dreemy-credits-subscription-renewal-policy-conflict",
+  "reviewedAt": "2026-10-27T09:34:19.317Z",
+  "standard": "portfolio-basic-quality-20261027",
+  "contentSha256": "2b9983e572cb653dd386da67f2a0472c4c98db9e3d4fb6af8afda4f95fb1454b",
+  "decision": "Current terms still describe renewal while refund page says no recurring subscriptions. Preserve conflict and receipt-first advice; no account-state guarantee.",
+  "materialChanges": false,
+  "limitations": "Sourced informational guide with clearly illustrative examples; no account, generation, billing, deletion or performance operation claimed.",
+  "sources": [
+    "https://www.dreemy.ai/terms",
+    "https://www.dreemy.ai/refund-policy",
+    "https://www.dreemy.ai/contact-us"
+  ],
+  "activationAt": "2026-10-29T21:58:40.433Z",
+  "originalPlan": "2026-10-29T21:58:40.433Z"
+}

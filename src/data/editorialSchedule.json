@@ -91,7 +91,7 @@
       "language": "en",
       "approved": true,
       "status": "editorially-reviewed",
-      "sourcesCheckedAt": "2026-10-19",
+      "sourcesCheckedAt": "2026-10-27",
       "reviewedSha256": "2b9983e572cb653dd386da67f2a0472c4c98db9e3d4fb6af8afda4f95fb1454b",
       "wordCount": 439,
       "editorialIntent": "A primary-source contradiction check and a receipt-to-renewal evidence method without deciding an individual legal entitlement.",
@@ -132,7 +132,9 @@
           "Dreemy: current public terms",
           "https://www.dreemy.ai/terms"
         ]
-      ]
+      ],
+      "notBefore": "2026-11-05T22:26:56.433Z",
+      "scheduleNote": "Keep approximately weekly spacing after the previous effective publication; original planned releaseAt retained."
     }
   ],
   "baselinePhase": 1,

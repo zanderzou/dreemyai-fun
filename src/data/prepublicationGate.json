@@ -45,5 +45,71 @@
       "responseSha256": "ae417b3a49611363de923faaa2006b4c50dd5aaa69a38d1c972a17bcf843ca11"
     }
   ],
-  "certificates": {}
+  "certificates": {
+    "dreemy-credits-subscription-renewal-policy-conflict": {
+      "schemaVersion": 1,
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "domain": "dreemyai.fun",
+      "slug": "dreemy-credits-subscription-renewal-policy-conflict",
+      "order": 4,
+      "releaseAt": "2026-10-29T21:58:40.433Z",
+      "activationAt": "2026-10-29T21:58:40.433Z",
+      "reviewedAt": "2026-10-27T09:34:19.317Z",
+      "factsCheckedAt": "2026-10-27T09:34:19.317Z",
+      "reviewedBy": "Codex independent article and primary-source review under October27 project override",
+      "contentSha256": "2b9983e572cb653dd386da67f2a0472c4c98db9e3d4fb6af8afda4f95fb1454b",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Current terms still describe renewal while refund page says no recurring subscriptions. Preserve conflict and receipt-first advice; no account-state guarantee."
+      },
+      "observations": [],
+      "officialSources": [
+        {
+          "url": "https://www.dreemy.ai/terms",
+          "checkedAt": "2026-10-27T09:22:10.726Z",
+          "status": 200,
+          "claim": "Current terms still describe renewal while refund page says no recurring subscriptions. Preserve conflict and receipt-first advice; no account-state guarantee.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261027-082146/source-f246d4b767e166cf.json",
+              "sha256": "48e7c02983ae1cd300e3c2cb25eaad539f867f93b102a67ba6722b5202674200"
+            }
+          ]
+        },
+        {
+          "url": "https://www.dreemy.ai/refund-policy",
+          "checkedAt": "2026-10-27T09:22:10.793Z",
+          "status": 200,
+          "claim": "Current terms still describe renewal while refund page says no recurring subscriptions. Preserve conflict and receipt-first advice; no account-state guarantee.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261027-082146/source-82255c8ac5734fc0.json",
+              "sha256": "a839de6a934b904b7e0e555d5b1d61d51db0a1261cc6f58eb6dd8468030124f8"
+            }
+          ]
+        },
+        {
+          "url": "https://www.dreemy.ai/contact-us",
+          "checkedAt": "2026-10-27T09:22:11.067Z",
+          "status": 200,
+          "claim": "Current terms still describe renewal while refund page says no recurring subscriptions. Preserve conflict and receipt-first advice; no account-state guarantee.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261027-082146/source-85c40f83e21396aa.json",
+              "sha256": "4530e1854a048a6de211641ca83f526a03ff293784a43557981d30baf535cd53"
+            }
+          ]
+        }
+      ],
+      "certificateDigest": "2dbecb384f9c0c4c728c19ba58c055e0bc2800cfb770f5add95a58049d546273"
+    }
+  }
 }
