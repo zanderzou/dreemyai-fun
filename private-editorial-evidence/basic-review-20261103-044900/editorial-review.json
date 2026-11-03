@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-03T04:53:33.566Z",
+  "reviewer": "weekly_sources independent basic editorial review",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "skill": {
+    "name": "write-tested-seo",
+    "version": "1.5",
+    "humanOverride": "Useful truthful sourced informational guides do not require forced product tests, login, screenshot quotas or rigid24h certificates."
+  },
+  "domain": "dreemyai.fun",
+  "file": "src/editorial-drafts/dreemy-public-content-license-model-improvement.md",
+  "slug": "dreemy-public-content-license-model-improvement",
+  "title": "Dreemy Public Content and Model Improvement: Read the Two Scopes",
+  "sourceCommit": "2a7c10d00631211a9bd3fe16580be1588fe970a2",
+  "productionAtVerifiedInventory": {
+    "id": "3a24bd28-517c-4228-86c1-ff7b2c6c990c",
+    "url": "https://3a24bd28.dreemyai-fun.pages.dev",
+    "commit": "2a7c10d00631211a9bd3fe16580be1588fe970a2",
+    "sourceShaRaw": "2a7c10d00631211a9bd3fe16580be1588fe970a2",
+    "createdAt": "2026-10-29T13:20:03.0997Z"
+  },
+  "sourceInventory": {
+    "path": "research/seo-geo-expansion-20261019/maintenance/2026-11-03T040429Z/post-maintenance-current-inventory.json",
+    "sha256": "6abfddb0ff7fbfcbd8ff010095fb22c971d7d9be6439d895e632672622c4608c",
+    "asOf": "2026-11-03T04:47:24.269Z"
+  },
+  "originalContentSha256": "f46d6ac67e57b7e189e9bab446e577314b93354c3e00e73eb61b01e2cfad12b1",
+  "rawContentSha256": "f46d6ac67e57b7e189e9bab446e577314b93354c3e00e73eb61b01e2cfad12b1",
+  "finalRecommendedContentSha256": "f46d6ac67e57b7e189e9bab446e577314b93354c3e00e73eb61b01e2cfad12b1",
+  "finalCopy": "dreemy-public-content-license-model-improvement-recommended-final.md",
+  "plannedReleaseAt": "2026-11-05T22:26:56.433Z",
+  "effectiveNotBefore": "2026-11-05T22:26:56.433Z",
+  "contentModified": false,
+  "requiredContentChanges": [],
+  "basicQualityPassed": true,
+  "recommendation": "Suitable for parent basic editorial approval under the current standard, preserving the notBefore date and weekly spacing. This report does not approve, issue a certificate, modify a gate, deploy or claim public availability.",
+  "readerIntent": "Explain public visibility permission and general interaction-data processing as separate scopes, with a narrow clarification request and no claim of an independently audited backend.",
+  "checks": {
+    "clearReaderQuestion": true,
+    "concreteUsefulGuidance": true,
+    "readableEnglish": true,
+    "keyClaimsSupported": true,
+    "honestLimits": true,
+    "noInventedExperience": true,
+    "noUnsupportedSecurityGuarantee": true,
+    "noBillingConclusionImported": true,
+    "noRegionalAccessWorkaround": true,
+    "noNewPageOrTranslation": true,
+    "originalPlannedDatesPreserved": true,
+    "noDateOnlyRefresh": true
+  },
+  "claimReview": [
+    {
+      "articleClaim": "Inputs/outputs are interaction data used for service delivery and model improvement; anonymization is a provider statement.",
+      "source": "Privacy1.2 and2",
+      "assessment": "Current actual200 text defines Inputs/Outputs and explicitly describes anonymized interaction-data model improvement. The article does not invent the anonymization method."
+    },
+    {
+      "articleClaim": "Public content carries additional broad permissions for improvement, distribution and related purposes.",
+      "source": "Terms3.2 and3.3",
+      "assessment": "Current actual200 Terms give a general operate/secure/improve service license; Generated Content set public gets broader rights including AI-model improvement/training, promotion/distribution and derivatives. Draft does not claim private means excluded from all processing."
+    },
+    {
+      "articleClaim": "Current visibility, applicable policy and actual data processing evidence differ.",
+      "source": "Original analysis grounded in both notices",
+      "assessment": "The three-row distinction is explicitly an explanatory method; no account setting, deletion, opt-out, backend or training operation is claimed."
+    }
+  ],
+  "officialSources": [
+    {
+      "url": "https://www.dreemy.ai/privacy",
+      "status": 200,
+      "checkedAt": "2026-11-03T04:52:27.844Z",
+      "bodySha256": "791fb0e7ec33aac7afd39307309cc7f9de4a1bf691d6f7e455ff42ddf646673d",
+      "evidence": "source-freshness/aa46043657dc55f1c9e0.json",
+      "evidenceSha256": "75e748ab2df777878f4c9b1b82348fed912c6f5684592c3dac1be48ce2a709c0",
+      "bodyEvidence": "source-freshness/aa46043657dc55f1c9e0.html",
+      "actualPrimaryTextRead": true,
+      "savedForCertificate": [
+        {
+          "path": "private-editorial-evidence/basic-review-20261103-044900/aa46043657dc55f1c9e0.json",
+          "sha256": "75e748ab2df777878f4c9b1b82348fed912c6f5684592c3dac1be48ce2a709c0"
+        },
+        {
+          "path": "private-editorial-evidence/basic-review-20261103-044900/aa46043657dc55f1c9e0.html",
+          "sha256": "791fb0e7ec33aac7afd39307309cc7f9de4a1bf691d6f7e455ff42ddf646673d"
+        }
+      ]
+    },
+    {
+      "url": "https://www.dreemy.ai/terms",
+      "status": 200,
+      "checkedAt": "2026-11-03T04:52:27.921Z",
+      "bodySha256": "8cb7be49f2095d163476ec24519cce679a74f32c99e872e683466d8d35439207",
+      "evidence": "source-freshness/f246d4b767e166cf7bc5.json",
+      "evidenceSha256": "1f3d0209403cc4d12ccb4a8a13d87f281c1689ab35f072e4ad57b6bbe783966e",
+      "bodyEvidence": "source-freshness/f246d4b767e166cf7bc5.html",
+      "actualPrimaryTextRead": true,
+      "savedForCertificate": [
+        {
+          "path": "private-editorial-evidence/basic-review-20261103-044900/f246d4b767e166cf7bc5.json",
+          "sha256": "1f3d0209403cc4d12ccb4a8a13d87f281c1689ab35f072e4ad57b6bbe783966e"
+        },
+        {
+          "path": "private-editorial-evidence/basic-review-20261103-044900/f246d4b767e166cf7bc5.html",
+          "sha256": "8cb7be49f2095d163476ec24519cce679a74f32c99e872e683466d8d35439207"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Actual official documents were opened/read via web reader and fresh original GET200 at04:52Z; no product generation, login, upload, settings, training or deletion operation occurred.",
+    "No update date is invented for the provider documents. Existing draft updatedDate is retained because no substantive text change is needed.",
+    "The previously recorded Dreemy billing mismatch is outside this article's licensing/privacy intent and is not treated as a reason to block it."
+  ],
+  "approvalCertificateOrRepositoryChangesPerformed": false,
+  "parentReviewedAt": "2026-11-03T04:58:07.984Z",
+  "parentSourceReview": "Actually opened both current primary pages and read final423word informational guide; no material correction needed, no product/account test claimed.",
+  "finalContentSha256": "f46d6ac67e57b7e189e9bab446e577314b93354c3e00e73eb61b01e2cfad12b1",
+  "currentPublicPrefixBeforeBuild": {
+    "source": "2a7c10d00631211a9bd3fe16580be1588fe970a2",
+    "production": {
+      "id": "3a24bd28-517c-4228-86c1-ff7b2c6c990c",
+      "url": "https://3a24bd28.dreemyai-fun.pages.dev",
+      "commit": "2a7c10d00631211a9bd3fe16580be1588fe970a2",
+      "sourceShaRaw": "2a7c10d00631211a9bd3fe16580be1588fe970a2",
+      "createdAt": "2026-10-29T13:20:03.0997Z"
+    },
+    "phase": 4,
+    "bodyAndCanonicalProof": "Separate local baseline-readback.json plus4saved actual200HTML; unchanged3grandfather proofs andexistingbasic4certificate retained."
+  }
+}

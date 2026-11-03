@@ -110,6 +110,67 @@
         }
       ],
       "certificateDigest": "2dbecb384f9c0c4c728c19ba58c055e0bc2800cfb770f5add95a58049d546273"
+    },
+    "dreemy-public-content-license-model-improvement": {
+      "schemaVersion": 1,
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "domain": "dreemyai.fun",
+      "slug": "dreemy-public-content-license-model-improvement",
+      "order": 5,
+      "releaseAt": "2026-11-05T22:26:56.433Z",
+      "activationAt": "2026-11-05T22:26:56.433Z",
+      "reviewedAt": "2026-11-03T04:58:07.984Z",
+      "factsCheckedAt": "2026-11-03T04:52:27.921Z",
+      "reviewedBy": "Codex current primary-source and independent basic editorial review under explicit October27 standard",
+      "contentSha256": "f46d6ac67e57b7e189e9bab446e577314b93354c3e00e73eb61b01e2cfad12b1",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Clear two-scope distinction with a practical three-row evidence framework and narrow clarification questions. Current Privacy1.2/2 andTerms3.2/3.3 support key claims; no invented backend, opt-out, account or generation experience."
+      },
+      "observations": [],
+      "officialSources": [
+        {
+          "url": "https://www.dreemy.ai/privacy",
+          "status": "content-retrieved",
+          "checkedAt": "2026-11-03T04:52:27.844Z",
+          "claim": "Interaction inputs/outputs and anonymized interaction data support provider-described service/model-improvement processing.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261103-044900/aa46043657dc55f1c9e0.json",
+              "sha256": "75e748ab2df777878f4c9b1b82348fed912c6f5684592c3dac1be48ce2a709c0"
+            },
+            {
+              "path": "private-editorial-evidence/basic-review-20261103-044900/aa46043657dc55f1c9e0.html",
+              "sha256": "791fb0e7ec33aac7afd39307309cc7f9de4a1bf691d6f7e455ff42ddf646673d"
+            }
+          ]
+        },
+        {
+          "url": "https://www.dreemy.ai/terms",
+          "status": "content-retrieved",
+          "checkedAt": "2026-11-03T04:52:27.921Z",
+          "claim": "General operation/improvement license is separate from broader public-content rights, including AI model training.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261103-044900/f246d4b767e166cf7bc5.json",
+              "sha256": "1f3d0209403cc4d12ccb4a8a13d87f281c1689ab35f072e4ad57b6bbe783966e"
+            },
+            {
+              "path": "private-editorial-evidence/basic-review-20261103-044900/f246d4b767e166cf7bc5.html",
+              "sha256": "8cb7be49f2095d163476ec24519cce679a74f32c99e872e683466d8d35439207"
+            }
+          ]
+        }
+      ],
+      "certificateDigest": "27f89414ce6ebd1b389b1a85537a442be1f83b2db9fb96bad386e1a7357c0c15"
     }
   }
 }
