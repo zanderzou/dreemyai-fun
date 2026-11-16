@@ -1,0 +1,38 @@
+{
+  "domain": "dreemyai.fun",
+  "slug": "dreemy-original-character-first-message",
+  "order": 7,
+  "reviewedAt": "2026-11-16T10:08:31.026Z",
+  "factsCheckedAt": "2026-11-16T10:06:41.000Z",
+  "contentSha256": "1d9eb80d97c89c7ffa5aa81093dec985bd510d3d201ef9aac8e73ee2a738b560",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-11-24T09:00:00.000Z",
+  "readerQuestion": "How do I write the first message for a Dreemy original character without committing the reader to an action?",
+  "applicableClaims": [
+    {
+      "name": "Dreemy AI FAQ",
+      "url": "https://www.dreemy.ai/faqs",
+      "note": "The product FAQ describes image-to-video workflows and says an original character can have personality, backstory and appearance details, with public and private options."
+    },
+    {
+      "name": "Dreemy AI Privacy Policy",
+      "url": "https://www.dreemy.ai/privacy",
+      "note": "The collection section identifies inputs, outputs and technical data. The safety section says not to place personally identifiable information in public bots or prompts."
+    }
+  ],
+  "exampleType": "Original illustrative workflow",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-16-weekly-refill/sites/dreemyai.fun/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-dreemy-original-character-first-message.png",
+    "sha256": "3c62e44143463094663e8543b7c90ec86da6b11be8bc92c305f15729047d227f",
+    "type": "Original editorial diagram",
+    "alt": "A character greeting places the characters, offers two actions and waits for the reader's reply."
+  },
+  "editorialReview": {
+    "readerAction": "Write a greeting that opens a scene, states what the character can see and leaves the reader a clear choice.",
+    "wordCount": 308,
+    "factBasis": "Primary sources and an explicitly fictional example. No product operation is claimed.",
+    "sourceLinksKeptInPrivateEvidence": true,
+    "productionReview": "The compiled Worker, all release boundaries and formal site are checked separately."
+  }
+}

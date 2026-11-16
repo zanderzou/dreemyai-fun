@@ -171,6 +171,168 @@
         }
       ],
       "certificateDigest": "27f89414ce6ebd1b389b1a85537a442be1f83b2db9fb96bad386e1a7357c0c15"
+    },
+    "dreemy-image-to-video-preserve-scene": {
+      "schemaVersion": 1,
+      "domain": "dreemyai.fun",
+      "slug": "dreemy-image-to-video-preserve-scene",
+      "order": 6,
+      "releaseAt": "2026-11-17T09:00:00.000Z",
+      "activationAt": "2026-11-17T09:00:00.000Z",
+      "contentSha256": "ff169aa27f96ab40ba95752183a8705a2e2db4b1d73ffd3bc0022d5b8990f002",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-16T10:08:31.026Z",
+      "factsCheckedAt": "2026-11-16T10:06:41.000Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Primary sources and an explicitly fictional example. No product operation is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "Dreemy AI FAQ",
+          "url": "https://www.dreemy.ai/faqs",
+          "note": "The product FAQ describes image-to-video workflows and says an original character can have personality, backstory and appearance details, with public and private options.",
+          "checkedAt": "2026-11-16T10:06:41.000Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/dreemy-image-to-video-preserve-scene.json",
+              "sha256": "46f6ef125b3c532bad8701ed4a363998f99f8c4c9e62f19e286d11f3d8790eac"
+            }
+          ]
+        },
+        {
+          "name": "Dreemy AI Terms of Service",
+          "url": "https://www.dreemy.ai/terms",
+          "note": "Sections 2 and 5 restrict harmful use of real people and identify accuracy and consistency as outcomes the service does not guarantee.",
+          "checkedAt": "2026-11-16T10:06:41.000Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/dreemy-image-to-video-preserve-scene.json",
+              "sha256": "46f6ef125b3c532bad8701ed4a363998f99f8c4c9e62f19e286d11f3d8790eac"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "dc70e16cd83fe6bd5acade1988a9c544e02d8f2a8e5f30a96bb417d006690676"
+    },
+    "dreemy-original-character-first-message": {
+      "schemaVersion": 1,
+      "domain": "dreemyai.fun",
+      "slug": "dreemy-original-character-first-message",
+      "order": 7,
+      "releaseAt": "2026-11-24T09:00:00.000Z",
+      "activationAt": "2026-11-24T09:00:00.000Z",
+      "contentSha256": "1d9eb80d97c89c7ffa5aa81093dec985bd510d3d201ef9aac8e73ee2a738b560",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-16T10:08:31.026Z",
+      "factsCheckedAt": "2026-11-16T10:06:41.000Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Primary sources and an explicitly fictional example. No product operation is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "Dreemy AI FAQ",
+          "url": "https://www.dreemy.ai/faqs",
+          "note": "The product FAQ describes image-to-video workflows and says an original character can have personality, backstory and appearance details, with public and private options.",
+          "checkedAt": "2026-11-16T10:06:41.000Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/dreemy-original-character-first-message.json",
+              "sha256": "66c476414c02fb38c517a4729849ec0f42f820dd757c014d9bb05f7ac6b3b5c1"
+            }
+          ]
+        },
+        {
+          "name": "Dreemy AI Privacy Policy",
+          "url": "https://www.dreemy.ai/privacy",
+          "note": "The collection section identifies inputs, outputs and technical data. The safety section says not to place personally identifiable information in public bots or prompts.",
+          "checkedAt": "2026-11-16T10:06:41.000Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/dreemy-original-character-first-message.json",
+              "sha256": "66c476414c02fb38c517a4729849ec0f42f820dd757c014d9bb05f7ac6b3b5c1"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "f34d251fe4f0dff1f9a035eaad0ea3e9dce71cd4000298643daeb3b0ed95953e"
+    },
+    "dreemy-login-error-support-details": {
+      "schemaVersion": 1,
+      "domain": "dreemyai.fun",
+      "slug": "dreemy-login-error-support-details",
+      "order": 8,
+      "releaseAt": "2026-12-01T09:00:00.000Z",
+      "activationAt": "2026-12-01T09:00:00.000Z",
+      "contentSha256": "b9144cf89640ee05de0f487c8dabaf0f29ffa67c21ae7b9e2372dd78cddd7d55",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-16T10:08:31.026Z",
+      "factsCheckedAt": "2026-11-16T10:06:41.000Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Primary sources and an explicitly fictional example. No product operation is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "Dreemy AI Contact Us",
+          "url": "https://www.dreemy.ai/contact-us",
+          "note": "The public support page accepts login and technical issues and asks for the associated account email, device information and useful error images.",
+          "checkedAt": "2026-11-16T10:06:41.000Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/dreemy-login-error-support-details.json",
+              "sha256": "a33af979a1110f6c404be0fb41dcf5176f607317d80c5a7a9c0341d994fe259e"
+            }
+          ]
+        },
+        {
+          "name": "Dreemy AI Privacy Policy",
+          "url": "https://www.dreemy.ai/privacy",
+          "note": "The collection section identifies inputs, outputs and technical data. The safety section says not to place personally identifiable information in public bots or prompts.",
+          "checkedAt": "2026-11-16T10:06:41.000Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/dreemy-login-error-support-details.json",
+              "sha256": "a33af979a1110f6c404be0fb41dcf5176f607317d80c5a7a9c0341d994fe259e"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "d8b3f153a4daf243536170f405766305b92749ceff3a9aec3991854c36e9ef51"
     }
   }
 }

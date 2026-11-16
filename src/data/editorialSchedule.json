@@ -135,6 +135,81 @@
       ],
       "notBefore": "2026-11-05T22:26:56.433Z",
       "scheduleNote": "Keep approximately weekly spacing after the previous effective publication; original planned releaseAt retained."
+    },
+    {
+      "order": 6,
+      "slug": "dreemy-image-to-video-preserve-scene",
+      "title": "Dreemy Image to Video: Preserve the Scene You Picked",
+      "readerQuestion": "How do I preserve an original scene when moving from an image to a short clip?",
+      "releaseAt": "2026-11-17T09:00:00.000Z",
+      "notBefore": "2026-11-17T09:00:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-16",
+      "reviewedSha256": "ff169aa27f96ab40ba95752183a8705a2e2db4b1d73ffd3bc0022d5b8990f002",
+      "wordCount": 314,
+      "editorialIntent": "Build a two-part motion brief and compare the finished clip with the selected still before spending effort on a longer shot.",
+      "sources": [
+        [
+          "Dreemy AI FAQ",
+          "https://www.dreemy.ai/faqs"
+        ],
+        [
+          "Dreemy AI Terms of Service",
+          "https://www.dreemy.ai/terms"
+        ]
+      ]
+    },
+    {
+      "order": 7,
+      "slug": "dreemy-original-character-first-message",
+      "title": "Dreemy Character Greeting: Leave the First Choice to the Reader",
+      "readerQuestion": "How do I write the first message for a Dreemy original character without committing the reader to an action?",
+      "releaseAt": "2026-11-24T09:00:00.000Z",
+      "notBefore": "2026-11-24T09:00:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-16",
+      "reviewedSha256": "1d9eb80d97c89c7ffa5aa81093dec985bd510d3d201ef9aac8e73ee2a738b560",
+      "wordCount": 308,
+      "editorialIntent": "Write a greeting that opens a scene, states what the character can see and leaves the reader a clear choice.",
+      "sources": [
+        [
+          "Dreemy AI FAQ",
+          "https://www.dreemy.ai/faqs"
+        ],
+        [
+          "Dreemy AI Privacy Policy",
+          "https://www.dreemy.ai/privacy"
+        ]
+      ]
+    },
+    {
+      "order": 8,
+      "slug": "dreemy-login-error-support-details",
+      "title": "Dreemy Login Error: Build a Support Note From One Attempt",
+      "readerQuestion": "What information helps Dreemy support understand a login failure without exposing private information?",
+      "releaseAt": "2026-12-01T09:00:00.000Z",
+      "notBefore": "2026-12-01T09:00:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-16",
+      "reviewedSha256": "b9144cf89640ee05de0f487c8dabaf0f29ffa67c21ae7b9e2372dd78cddd7d55",
+      "wordCount": 303,
+      "editorialIntent": "Record where a login attempt stopped and prepare a support note that leaves passwords, verification codes and chat text out.",
+      "sources": [
+        [
+          "Dreemy AI Contact Us",
+          "https://www.dreemy.ai/contact-us"
+        ],
+        [
+          "Dreemy AI Privacy Policy",
+          "https://www.dreemy.ai/privacy"
+        ]
+      ]
     }
   ],
   "baselinePhase": 1,

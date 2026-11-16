@@ -1,0 +1,38 @@
+{
+  "domain": "dreemyai.fun",
+  "slug": "dreemy-image-to-video-preserve-scene",
+  "order": 6,
+  "reviewedAt": "2026-11-16T10:08:31.026Z",
+  "factsCheckedAt": "2026-11-16T10:06:41.000Z",
+  "contentSha256": "ff169aa27f96ab40ba95752183a8705a2e2db4b1d73ffd3bc0022d5b8990f002",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-11-17T09:00:00.000Z",
+  "readerQuestion": "How do I preserve an original scene when moving from an image to a short clip?",
+  "applicableClaims": [
+    {
+      "name": "Dreemy AI FAQ",
+      "url": "https://www.dreemy.ai/faqs",
+      "note": "The product FAQ describes image-to-video workflows and says an original character can have personality, backstory and appearance details, with public and private options."
+    },
+    {
+      "name": "Dreemy AI Terms of Service",
+      "url": "https://www.dreemy.ai/terms",
+      "note": "Sections 2 and 5 restrict harmful use of real people and identify accuracy and consistency as outcomes the service does not guarantee."
+    }
+  ],
+  "exampleType": "Original illustrative workflow",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-16-weekly-refill/sites/dreemyai.fun/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-dreemy-image-to-video-preserve-scene.png",
+    "sha256": "2ec21ec39e7d58df1e5f25cb260346eab789d4b2d97d27b1c78e68bc9e8fdb80",
+    "type": "Original editorial diagram",
+    "alt": "Three checks for a Dreemy scene: keep the coat and key, animate only the lantern, and compare the last frame."
+  },
+  "editorialReview": {
+    "readerAction": "Build a two-part motion brief and compare the finished clip with the selected still before spending effort on a longer shot.",
+    "wordCount": 314,
+    "factBasis": "Primary sources and an explicitly fictional example. No product operation is claimed.",
+    "sourceLinksKeptInPrivateEvidence": true,
+    "productionReview": "The compiled Worker, all release boundaries and formal site are checked separately."
+  }
+}

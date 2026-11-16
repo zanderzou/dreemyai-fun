@@ -1,0 +1,38 @@
+{
+  "domain": "dreemyai.fun",
+  "slug": "dreemy-login-error-support-details",
+  "order": 8,
+  "reviewedAt": "2026-11-16T10:08:31.026Z",
+  "factsCheckedAt": "2026-11-16T10:06:41.000Z",
+  "contentSha256": "b9144cf89640ee05de0f487c8dabaf0f29ffa67c21ae7b9e2372dd78cddd7d55",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-12-01T09:00:00.000Z",
+  "readerQuestion": "What information helps Dreemy support understand a login failure without exposing private information?",
+  "applicableClaims": [
+    {
+      "name": "Dreemy AI Contact Us",
+      "url": "https://www.dreemy.ai/contact-us",
+      "note": "The public support page accepts login and technical issues and asks for the associated account email, device information and useful error images."
+    },
+    {
+      "name": "Dreemy AI Privacy Policy",
+      "url": "https://www.dreemy.ai/privacy",
+      "note": "The collection section identifies inputs, outputs and technical data. The safety section says not to place personally identifiable information in public bots or prompts."
+    }
+  ],
+  "exampleType": "Original illustrative workflow",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-16-weekly-refill/sites/dreemyai.fun/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-dreemy-login-error-support-details.png",
+    "sha256": "9d773bacc6e05b7e3c9bc9276dc0c01bbbdaeff26437dad87096cbb549284ba5",
+    "type": "Original editorial diagram",
+    "alt": "Three points to distinguish during login troubleshooting: the sign-in page, the return from the sign-in provider, and the account screen."
+  },
+  "editorialReview": {
+    "readerAction": "Record where a login attempt stopped and prepare a support note that leaves passwords, verification codes and chat text out.",
+    "wordCount": 303,
+    "factBasis": "Primary sources and an explicitly fictional example. No product operation is claimed.",
+    "sourceLinksKeptInPrivateEvidence": true,
+    "productionReview": "The compiled Worker, all release boundaries and formal site are checked separately."
+  }
+}
