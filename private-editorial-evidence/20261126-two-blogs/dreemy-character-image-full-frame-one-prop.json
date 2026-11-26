@@ -1,0 +1,53 @@
+{
+  "domain": "dreemyai.fun",
+  "slug": "dreemy-character-image-full-frame-one-prop",
+  "order": 10,
+  "reviewedAt": "2026-11-26T10:20:04.713Z",
+  "factsCheckedAt": "2026-11-26T10:20:04.713Z",
+  "contentSha256": "c6258b36b76f4ba585ca77de5d56d4450d1e711eb1cefdc4e9cb2ab7774deb85",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-12-15T09:00:00.000Z",
+  "readerQuestion": "How can I write a clearer image brief when shoes or the top of a prop keep getting cropped?",
+  "applicableClaims": [
+    {
+      "name": "Dreemy AI official FAQ",
+      "url": "https://www.dreemy.ai/faqs",
+      "note": "Read custom bot personality/backstory/appearance and character image generation. Unsupported guarantees of privacy, unrestricted output and universal free unlimited usage not adopted. No account or product operation performed.",
+      "observedOn": "2026-11-26",
+      "webRecord": "turn1141view0"
+    },
+    {
+      "name": "Dreemy AI official terms",
+      "url": "https://www.dreemy.ai/terms",
+      "note": "Read adult eligibility and prohibited real-person abuse/privacy violations and geographic restrictions; original fictional adult text-only examples, no uploading or access workaround.",
+      "observedOn": "2026-11-26",
+      "webRecord": "turn1143view0;turn1144view0"
+    }
+  ],
+  "exampleType": "Original illustrative guidance, not an unperformed product test",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-26-two-blogs-per-site/sites/dreemyai.fun/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-dreemy-character-image-full-frame-one-prop.webp",
+    "sha256": "e76c7a1de3af299daa2fa12f727004e90c9e98da1d3397721a21bb0861a898d4",
+    "originalPngSha256": "400bc5024db04f8ad8b114437540edf8b32bb3168203d10ff7d933a2c937027d",
+    "width": 1672,
+    "height": 941,
+    "type": "Original imagegen editorial artwork",
+    "alt": "An original adult fictional woman in an opaque scarlet bikini and cream sarong stands fully in frame with sandals and a complete closed yellow umbrella.",
+    "deliveryConversion": "WebP quality 92; original dimensions retained; no content alteration",
+    "visuallyReviewed": true
+  },
+  "editorialReview": {
+    "readerAction": "Specify the intended frame, one complete prop and visible margins, then inspect the actual image instead of adding more scene details.",
+    "wordCount": 364,
+    "sourceLinksKeptInPrivateEvidence": true,
+    "factBasis": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed.",
+    "reviewBasis": {
+      "intent": "How can I write a clearer image brief when shoes or the top of a prop keep getting cropped?",
+      "independentValue": "Specify the intended frame, one complete prop and visible margins, then inspect the actual image instead of adding more scene details.",
+      "image": "An original adult fictional woman in an opaque scarlet bikini and cream sarong stands fully in frame with sandals and a complete closed yellow umbrella.",
+      "readability": "Individually edited answer-led prose and a bounded worked example; no copied brand-swap template.",
+      "layout": "Pending complete-build desktop/mobile checks; separately required before deployment."
+    }
+  }
+}

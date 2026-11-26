@@ -210,6 +210,56 @@
           "https://www.dreemy.ai/privacy"
         ]
       ]
+    },
+    {
+      "order": 9,
+      "slug": "dreemy-character-backstory-one-recurring-habit",
+      "title": "Dreemy Character Backstory: Give One Habit a Job in the Scene",
+      "readerQuestion": "How can I make a custom character feel specific without writing a long biography?",
+      "releaseAt": "2026-12-08T09:00:00.000Z",
+      "notBefore": "2026-12-08T09:00:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-26",
+      "reviewedSha256": "3cace7cbb527488f09a7a478c684b4c7fe4de804491e7b10dd93b026116b6df0",
+      "wordCount": 378,
+      "editorialIntent": "Connect one original adult character habit to an observable action and leave space for the reader to respond.",
+      "sources": [
+        [
+          "Dreemy AI official FAQ",
+          "https://www.dreemy.ai/faqs"
+        ],
+        [
+          "Dreemy AI official terms",
+          "https://www.dreemy.ai/terms"
+        ]
+      ]
+    },
+    {
+      "order": 10,
+      "slug": "dreemy-character-image-full-frame-one-prop",
+      "title": "Dreemy Image Briefs: Keep the Character and One Prop in Frame",
+      "readerQuestion": "How can I write a clearer image brief when shoes or the top of a prop keep getting cropped?",
+      "releaseAt": "2026-12-15T09:00:00.000Z",
+      "notBefore": "2026-12-15T09:00:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-26",
+      "reviewedSha256": "c6258b36b76f4ba585ca77de5d56d4450d1e711eb1cefdc4e9cb2ab7774deb85",
+      "wordCount": 364,
+      "editorialIntent": "Specify the intended frame, one complete prop and visible margins, then inspect the actual image instead of adding more scene details.",
+      "sources": [
+        [
+          "Dreemy AI official FAQ",
+          "https://www.dreemy.ai/faqs"
+        ],
+        [
+          "Dreemy AI official terms",
+          "https://www.dreemy.ai/terms"
+        ]
+      ]
     }
   ],
   "baselinePhase": 1,

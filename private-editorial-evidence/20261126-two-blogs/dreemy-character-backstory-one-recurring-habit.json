@@ -1,0 +1,53 @@
+{
+  "domain": "dreemyai.fun",
+  "slug": "dreemy-character-backstory-one-recurring-habit",
+  "order": 9,
+  "reviewedAt": "2026-11-26T10:20:04.713Z",
+  "factsCheckedAt": "2026-11-26T10:20:04.713Z",
+  "contentSha256": "3cace7cbb527488f09a7a478c684b4c7fe4de804491e7b10dd93b026116b6df0",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-12-08T09:00:00.000Z",
+  "readerQuestion": "How can I make a custom character feel specific without writing a long biography?",
+  "applicableClaims": [
+    {
+      "name": "Dreemy AI official FAQ",
+      "url": "https://www.dreemy.ai/faqs",
+      "note": "Read custom bot personality/backstory/appearance and character image generation. Unsupported guarantees of privacy, unrestricted output and universal free unlimited usage not adopted. No account or product operation performed.",
+      "observedOn": "2026-11-26",
+      "webRecord": "turn1141view0"
+    },
+    {
+      "name": "Dreemy AI official terms",
+      "url": "https://www.dreemy.ai/terms",
+      "note": "Read adult eligibility and prohibited real-person abuse/privacy violations and geographic restrictions; original fictional adult text-only examples, no uploading or access workaround.",
+      "observedOn": "2026-11-26",
+      "webRecord": "turn1143view0;turn1144view0"
+    }
+  ],
+  "exampleType": "Original illustrative guidance, not an unperformed product test",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-26-two-blogs-per-site/sites/dreemyai.fun/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-dreemy-character-backstory-one-recurring-habit.webp",
+    "sha256": "27c8a4c7976e00dccb39b4030a0215f055e3aae38671bc34da1d32b05443de1f",
+    "originalPngSha256": "824062769823000eade41e64c2c109a0eddca979e2c0a85048006b0cf7f41dac",
+    "width": 1672,
+    "height": 941,
+    "type": "Original imagegen editorial artwork",
+    "alt": "An original adult fictional woman in an opaque emerald bikini examines one green leaf beside a closed cream field notebook on a botanical pool terrace.",
+    "deliveryConversion": "WebP quality 92; original dimensions retained; no content alteration",
+    "visuallyReviewed": true
+  },
+  "editorialReview": {
+    "readerAction": "Connect one original adult character habit to an observable action and leave space for the reader to respond.",
+    "wordCount": 378,
+    "sourceLinksKeptInPrivateEvidence": true,
+    "factBasis": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed.",
+    "reviewBasis": {
+      "intent": "How can I make a custom character feel specific without writing a long biography?",
+      "independentValue": "Connect one original adult character habit to an observable action and leave space for the reader to respond.",
+      "image": "An original adult fictional woman in an opaque emerald bikini examines one green leaf beside a closed cream field notebook on a botanical pool terrace.",
+      "readability": "Individually edited answer-led prose and a bounded worked example; no copied brand-swap template.",
+      "layout": "Pending complete-build desktop/mobile checks; separately required before deployment."
+    }
+  }
+}

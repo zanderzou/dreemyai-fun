@@ -333,6 +333,122 @@
       ],
       "observations": [],
       "certificateDigest": "d8b3f153a4daf243536170f405766305b92749ceff3a9aec3991854c36e9ef51"
+    },
+    "dreemy-character-backstory-one-recurring-habit": {
+      "schemaVersion": 1,
+      "domain": "dreemyai.fun",
+      "slug": "dreemy-character-backstory-one-recurring-habit",
+      "order": 9,
+      "releaseAt": "2026-12-08T09:00:00.000Z",
+      "activationAt": "2026-12-08T09:00:00.000Z",
+      "contentSha256": "3cace7cbb527488f09a7a478c684b4c7fe4de804491e7b10dd93b026116b6df0",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-26T10:20:04.713Z",
+      "factsCheckedAt": "2026-11-26T10:20:04.713Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "Dreemy AI official FAQ",
+          "url": "https://www.dreemy.ai/faqs",
+          "note": "Read custom bot personality/backstory/appearance and character image generation. Unsupported guarantees of privacy, unrestricted output and universal free unlimited usage not adopted. No account or product operation performed.",
+          "observedOn": "2026-11-26",
+          "webRecord": "turn1141view0",
+          "checkedAt": "2026-11-26T10:20:04.713Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-two-blogs/dreemy-character-backstory-one-recurring-habit.json",
+              "sha256": "fcc3abc8333254a302ecd00c51c615d28fa365b7381e9542b95e6168a6ccf576"
+            }
+          ]
+        },
+        {
+          "name": "Dreemy AI official terms",
+          "url": "https://www.dreemy.ai/terms",
+          "note": "Read adult eligibility and prohibited real-person abuse/privacy violations and geographic restrictions; original fictional adult text-only examples, no uploading or access workaround.",
+          "observedOn": "2026-11-26",
+          "webRecord": "turn1143view0;turn1144view0",
+          "checkedAt": "2026-11-26T10:20:04.713Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-two-blogs/dreemy-character-backstory-one-recurring-habit.json",
+              "sha256": "fcc3abc8333254a302ecd00c51c615d28fa365b7381e9542b95e6168a6ccf576"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "c87b21c457cc420fd19635395ae0350cb410087959057129c2c21a992ee940e1"
+    },
+    "dreemy-character-image-full-frame-one-prop": {
+      "schemaVersion": 1,
+      "domain": "dreemyai.fun",
+      "slug": "dreemy-character-image-full-frame-one-prop",
+      "order": 10,
+      "releaseAt": "2026-12-15T09:00:00.000Z",
+      "activationAt": "2026-12-15T09:00:00.000Z",
+      "contentSha256": "c6258b36b76f4ba585ca77de5d56d4450d1e711eb1cefdc4e9cb2ab7774deb85",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-26T10:20:04.713Z",
+      "factsCheckedAt": "2026-11-26T10:20:04.713Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "Dreemy AI official FAQ",
+          "url": "https://www.dreemy.ai/faqs",
+          "note": "Read custom bot personality/backstory/appearance and character image generation. Unsupported guarantees of privacy, unrestricted output and universal free unlimited usage not adopted. No account or product operation performed.",
+          "observedOn": "2026-11-26",
+          "webRecord": "turn1141view0",
+          "checkedAt": "2026-11-26T10:20:04.713Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-two-blogs/dreemy-character-image-full-frame-one-prop.json",
+              "sha256": "8fa2bf42db4b5477d873fe64a4db53f977f0447563326e25d63f822495d36a34"
+            }
+          ]
+        },
+        {
+          "name": "Dreemy AI official terms",
+          "url": "https://www.dreemy.ai/terms",
+          "note": "Read adult eligibility and prohibited real-person abuse/privacy violations and geographic restrictions; original fictional adult text-only examples, no uploading or access workaround.",
+          "observedOn": "2026-11-26",
+          "webRecord": "turn1143view0;turn1144view0",
+          "checkedAt": "2026-11-26T10:20:04.713Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-two-blogs/dreemy-character-image-full-frame-one-prop.json",
+              "sha256": "8fa2bf42db4b5477d873fe64a4db53f977f0447563326e25d63f822495d36a34"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "887a1f65e3eac50312466638c4015058e930786b6ec6092d46d9745d95ae35fc"
     }
   }
 }
