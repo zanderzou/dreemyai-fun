@@ -4,7 +4,7 @@
   "order": 10,
   "reviewedAt": "2026-11-26T10:20:04.713Z",
   "factsCheckedAt": "2026-11-26T10:20:04.713Z",
-  "contentSha256": "c6258b36b76f4ba585ca77de5d56d4450d1e711eb1cefdc4e9cb2ab7774deb85",
+  "contentSha256": "bb9654fe362ec247b173ccf2392fc8044b90fed1defac4a021911a400a00223f",
   "reviewStandard": "portfolio-basic-quality-20261027",
   "releaseAt": "2026-12-15T09:00:00.000Z",
   "readerQuestion": "How can I write a clearer image brief when shoes or the top of a prop keep getting cropped?",
@@ -49,5 +49,12 @@
       "readability": "Individually edited answer-led prose and a bounded worked example; no copied brand-swap template.",
       "layout": "Pending complete-build desktop/mobile checks; separately required before deployment."
     }
+  },
+  "reviewDateCorrection": {
+    "checkedAt": "2026-11-27T01:10:09.828Z",
+    "originalVerifiedReviewDate": "2026-11-26",
+    "previousContentSha256": "c6258b36b76f4ba585ca77de5d56d4450d1e711eb1cefdc4e9cb2ab7774deb85",
+    "previousCertificateDigest": "887a1f65e3eac50312466638c4015058e930786b6ec6092d46d9745d95ae35fc",
+    "change": "Use the real editorial review date in updatedDate. The published date, activation time, body, artwork, sources and previous review remain the same."
   }
 }

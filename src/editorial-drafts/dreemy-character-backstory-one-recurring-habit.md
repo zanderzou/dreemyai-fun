@@ -2,7 +2,7 @@
 title: "Dreemy Character Backstory: Give One Habit a Job in the Scene"
 description: "Connect one original adult character habit to an observable action and leave space for the reader to respond."
 publishDate: "2026-12-08"
-updatedDate: "2026-12-08"
+updatedDate: "2026-11-26"
 category: "Practical Guides"
 readTime: "2 min read"
 answer: "Connect one original adult character habit to an observable action and leave space for the reader to respond."

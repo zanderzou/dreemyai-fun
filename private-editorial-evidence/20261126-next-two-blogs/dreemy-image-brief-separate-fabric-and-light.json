@@ -1,0 +1,53 @@
+{
+  "domain": "dreemyai.fun",
+  "slug": "dreemy-image-brief-separate-fabric-and-light",
+  "order": 11,
+  "reviewedAt": "2026-11-27T01:09:56.409Z",
+  "factsCheckedAt": "2026-11-27T01:09:56.409Z",
+  "contentSha256": "0715b9621bca3a3530f201b7b371574863e9bf464418518d3ebbf59abf164bc1",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-12-22T09:00:00.000Z",
+  "readerQuestion": "How do I make a Dreemy image brief distinguish a garment’s material from the light falling on it?",
+  "applicableClaims": [
+    {
+      "name": "Dreemy AI official FAQ",
+      "url": "https://www.dreemy.ai/faqs",
+      "note": "Read sections on saved chat history, custom character backstory and appearance, and generated images in chat. No memory, available credit, image quality or login guarantees are inferred from FAQ marketing.",
+      "observedOn": "2026-11-27",
+      "webRecord": "turn1214view0;turn1217view3"
+    },
+    {
+      "name": "Dreemy AI Terms of Service",
+      "url": "https://www.dreemy.ai/terms",
+      "note": "Read adult eligibility, restrictions and prohibited content. Examples are text-only, original and fictional. No real-person images, access workaround or product operation.",
+      "observedOn": "2026-11-27",
+      "webRecord": "turn1214view1"
+    }
+  ],
+  "exampleType": "Original illustrative guidance, not an unperformed product test",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-26-next-two-blogs-per-site/sites/dreemyai.fun/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-dreemy-image-brief-separate-fabric-and-light.webp",
+    "sha256": "3b53878508632c6f7fbd89f6cc0b5f6b7c60ae4a214ab0cb4162e81464d2d955",
+    "originalPngSha256": "3fd33ff18f777252243fbd1c253ec12ec53a19047f55cb9e5c898951772f647a",
+    "width": 1672,
+    "height": 941,
+    "type": "Original imagegen editorial artwork",
+    "alt": "A colored-pencil illustration of a fictional adult beside smooth cobalt fabric and a textured dark blue swatch.",
+    "deliveryConversion": "WebP quality 92; original dimensions retained; no content alteration",
+    "visuallyReviewed": true
+  },
+  "editorialReview": {
+    "readerAction": "Give the garment a material and a color, give the light a direction, and inspect one fold before changing the prompt.",
+    "wordCount": 250,
+    "sourceLinksKeptInPrivateEvidence": true,
+    "factBasis": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed.",
+    "reviewBasis": {
+      "intent": "How do I make a Dreemy image brief distinguish a garment’s material from the light falling on it?",
+      "independentValue": "Give the garment a material and a color, give the light a direction, and inspect one fold before changing the prompt.",
+      "image": "A colored-pencil illustration of a fictional adult beside smooth cobalt fabric and a textured dark blue swatch.",
+      "readability": "Individually edited answer-led prose and a bounded worked example; no copied brand-swap template.",
+      "layout": "Pending complete-build desktop/mobile checks; separately required before deployment."
+    }
+  }
+}

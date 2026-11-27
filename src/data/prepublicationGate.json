@@ -341,7 +341,7 @@
       "order": 9,
       "releaseAt": "2026-12-08T09:00:00.000Z",
       "activationAt": "2026-12-08T09:00:00.000Z",
-      "contentSha256": "3cace7cbb527488f09a7a478c684b4c7fe4de804491e7b10dd93b026116b6df0",
+      "contentSha256": "af90c4420687089d54bfe65f23e1900d57240aea9fb321984a751ea036425b70",
       "skill": {
         "name": "write-tested-seo",
         "version": "1.5"
@@ -369,7 +369,7 @@
           "evidence": [
             {
               "path": "private-editorial-evidence/20261126-two-blogs/dreemy-character-backstory-one-recurring-habit.json",
-              "sha256": "fcc3abc8333254a302ecd00c51c615d28fa365b7381e9542b95e6168a6ccf576"
+              "sha256": "9505a0fe94f2a8e8f801ffe20b1723dc2a12cc56ae4997e262cbaad3171135b2"
             }
           ]
         },
@@ -384,13 +384,13 @@
           "evidence": [
             {
               "path": "private-editorial-evidence/20261126-two-blogs/dreemy-character-backstory-one-recurring-habit.json",
-              "sha256": "fcc3abc8333254a302ecd00c51c615d28fa365b7381e9542b95e6168a6ccf576"
+              "sha256": "9505a0fe94f2a8e8f801ffe20b1723dc2a12cc56ae4997e262cbaad3171135b2"
             }
           ]
         }
       ],
       "observations": [],
-      "certificateDigest": "c87b21c457cc420fd19635395ae0350cb410087959057129c2c21a992ee940e1"
+      "certificateDigest": "bc5f1479896caacad0bbab082a6c941ccc17ee73fa8dfec47465f4271c21f1e3"
     },
     "dreemy-character-image-full-frame-one-prop": {
       "schemaVersion": 1,
@@ -399,7 +399,7 @@
       "order": 10,
       "releaseAt": "2026-12-15T09:00:00.000Z",
       "activationAt": "2026-12-15T09:00:00.000Z",
-      "contentSha256": "c6258b36b76f4ba585ca77de5d56d4450d1e711eb1cefdc4e9cb2ab7774deb85",
+      "contentSha256": "bb9654fe362ec247b173ccf2392fc8044b90fed1defac4a021911a400a00223f",
       "skill": {
         "name": "write-tested-seo",
         "version": "1.5"
@@ -427,7 +427,7 @@
           "evidence": [
             {
               "path": "private-editorial-evidence/20261126-two-blogs/dreemy-character-image-full-frame-one-prop.json",
-              "sha256": "8fa2bf42db4b5477d873fe64a4db53f977f0447563326e25d63f822495d36a34"
+              "sha256": "575dbc67687b24c98c7b5e20fa48eeef5e97c61cf03bf2199e75fa83118fbfa7"
             }
           ]
         },
@@ -442,13 +442,129 @@
           "evidence": [
             {
               "path": "private-editorial-evidence/20261126-two-blogs/dreemy-character-image-full-frame-one-prop.json",
-              "sha256": "8fa2bf42db4b5477d873fe64a4db53f977f0447563326e25d63f822495d36a34"
+              "sha256": "575dbc67687b24c98c7b5e20fa48eeef5e97c61cf03bf2199e75fa83118fbfa7"
             }
           ]
         }
       ],
       "observations": [],
-      "certificateDigest": "887a1f65e3eac50312466638c4015058e930786b6ec6092d46d9745d95ae35fc"
+      "certificateDigest": "2a4b133cdcad8dce714e1612ca85be9cac83ff7a9a2f1e8423f381b799c5bc83"
+    },
+    "dreemy-image-brief-separate-fabric-and-light": {
+      "schemaVersion": 1,
+      "domain": "dreemyai.fun",
+      "slug": "dreemy-image-brief-separate-fabric-and-light",
+      "order": 11,
+      "releaseAt": "2026-12-22T09:00:00.000Z",
+      "activationAt": "2026-12-22T09:00:00.000Z",
+      "contentSha256": "0715b9621bca3a3530f201b7b371574863e9bf464418518d3ebbf59abf164bc1",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-27T01:09:56.409Z",
+      "factsCheckedAt": "2026-11-27T01:09:56.409Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "Dreemy AI official FAQ",
+          "url": "https://www.dreemy.ai/faqs",
+          "note": "Read sections on saved chat history, custom character backstory and appearance, and generated images in chat. No memory, available credit, image quality or login guarantees are inferred from FAQ marketing.",
+          "observedOn": "2026-11-27",
+          "webRecord": "turn1214view0;turn1217view3",
+          "checkedAt": "2026-11-27T01:09:56.409Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-next-two-blogs/dreemy-image-brief-separate-fabric-and-light.json",
+              "sha256": "027ef4c4d541c1661c5e2ffb2242afdca010a77e40636dc877f6b4a56511dff9"
+            }
+          ]
+        },
+        {
+          "name": "Dreemy AI Terms of Service",
+          "url": "https://www.dreemy.ai/terms",
+          "note": "Read adult eligibility, restrictions and prohibited content. Examples are text-only, original and fictional. No real-person images, access workaround or product operation.",
+          "observedOn": "2026-11-27",
+          "webRecord": "turn1214view1",
+          "checkedAt": "2026-11-27T01:09:56.409Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-next-two-blogs/dreemy-image-brief-separate-fabric-and-light.json",
+              "sha256": "027ef4c4d541c1661c5e2ffb2242afdca010a77e40636dc877f6b4a56511dff9"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "d87c57ebb4d4fb1c764d9a2c7189c983ea9488ce92e112067acfed80a2ee8005"
+    },
+    "dreemy-resume-a-story-from-the-last-open-choice": {
+      "schemaVersion": 1,
+      "domain": "dreemyai.fun",
+      "slug": "dreemy-resume-a-story-from-the-last-open-choice",
+      "order": 12,
+      "releaseAt": "2026-12-29T09:00:00.000Z",
+      "activationAt": "2026-12-29T09:00:00.000Z",
+      "contentSha256": "e5456b13e8300d80513b74576cf1cbd0c0e5318d09ad2efce78e2e25e8dacd5a",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-27T01:09:56.409Z",
+      "factsCheckedAt": "2026-11-27T01:09:56.409Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Relevant primary documents and explicitly illustrative examples. No product operation, performance or actual print test is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "Dreemy AI official FAQ",
+          "url": "https://www.dreemy.ai/faqs",
+          "note": "Read sections on saved chat history, custom character backstory and appearance, and generated images in chat. No memory, available credit, image quality or login guarantees are inferred from FAQ marketing.",
+          "observedOn": "2026-11-27",
+          "webRecord": "turn1214view0;turn1217view3",
+          "checkedAt": "2026-11-27T01:09:56.409Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-next-two-blogs/dreemy-resume-a-story-from-the-last-open-choice.json",
+              "sha256": "371485180a33e6085f1ac8871cfad7a23f48390a4ef8f72f10c7f404771174f7"
+            }
+          ]
+        },
+        {
+          "name": "Dreemy AI Terms of Service",
+          "url": "https://www.dreemy.ai/terms",
+          "note": "Read adult eligibility, restrictions and prohibited content. Examples are text-only, original and fictional. No real-person images, access workaround or product operation.",
+          "observedOn": "2026-11-27",
+          "webRecord": "turn1214view1",
+          "checkedAt": "2026-11-27T01:09:56.409Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261126-next-two-blogs/dreemy-resume-a-story-from-the-last-open-choice.json",
+              "sha256": "371485180a33e6085f1ac8871cfad7a23f48390a4ef8f72f10c7f404771174f7"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "8746ec7316b0fc1138503dc00885432ac869c9b2834f053f3dfd468937568047"
     }
   }
 }

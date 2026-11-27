@@ -4,7 +4,7 @@
   "order": 9,
   "reviewedAt": "2026-11-26T10:20:04.713Z",
   "factsCheckedAt": "2026-11-26T10:20:04.713Z",
-  "contentSha256": "3cace7cbb527488f09a7a478c684b4c7fe4de804491e7b10dd93b026116b6df0",
+  "contentSha256": "af90c4420687089d54bfe65f23e1900d57240aea9fb321984a751ea036425b70",
   "reviewStandard": "portfolio-basic-quality-20261027",
   "releaseAt": "2026-12-08T09:00:00.000Z",
   "readerQuestion": "How can I make a custom character feel specific without writing a long biography?",
@@ -49,5 +49,12 @@
       "readability": "Individually edited answer-led prose and a bounded worked example; no copied brand-swap template.",
       "layout": "Pending complete-build desktop/mobile checks; separately required before deployment."
     }
+  },
+  "reviewDateCorrection": {
+    "checkedAt": "2026-11-27T01:10:09.828Z",
+    "originalVerifiedReviewDate": "2026-11-26",
+    "previousContentSha256": "3cace7cbb527488f09a7a478c684b4c7fe4de804491e7b10dd93b026116b6df0",
+    "previousCertificateDigest": "c87b21c457cc420fd19635395ae0350cb410087959057129c2c21a992ee940e1",
+    "change": "Use the real editorial review date in updatedDate. The published date, activation time, body, artwork, sources and previous review remain the same."
   }
 }

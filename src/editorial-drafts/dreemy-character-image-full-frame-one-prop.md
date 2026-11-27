@@ -2,7 +2,7 @@
 title: "Dreemy Image Briefs: Keep the Character and One Prop in Frame"
 description: "Specify the intended frame, one complete prop and visible margins, then inspect the actual image instead of adding more scene details."
 publishDate: "2026-12-15"
-updatedDate: "2026-12-15"
+updatedDate: "2026-11-26"
 category: "Practical Guides"
 readTime: "2 min read"
 answer: "Specify the intended frame, one complete prop and visible margins, then inspect the actual image instead of adding more scene details."

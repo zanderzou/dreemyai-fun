@@ -222,7 +222,7 @@
       "approved": true,
       "status": "editorially-reviewed",
       "sourcesCheckedAt": "2026-11-26",
-      "reviewedSha256": "3cace7cbb527488f09a7a478c684b4c7fe4de804491e7b10dd93b026116b6df0",
+      "reviewedSha256": "af90c4420687089d54bfe65f23e1900d57240aea9fb321984a751ea036425b70",
       "wordCount": 378,
       "editorialIntent": "Connect one original adult character habit to an observable action and leave space for the reader to respond.",
       "sources": [
@@ -247,7 +247,7 @@
       "approved": true,
       "status": "editorially-reviewed",
       "sourcesCheckedAt": "2026-11-26",
-      "reviewedSha256": "c6258b36b76f4ba585ca77de5d56d4450d1e711eb1cefdc4e9cb2ab7774deb85",
+      "reviewedSha256": "bb9654fe362ec247b173ccf2392fc8044b90fed1defac4a021911a400a00223f",
       "wordCount": 364,
       "editorialIntent": "Specify the intended frame, one complete prop and visible margins, then inspect the actual image instead of adding more scene details.",
       "sources": [
@@ -257,6 +257,56 @@
         ],
         [
           "Dreemy AI official terms",
+          "https://www.dreemy.ai/terms"
+        ]
+      ]
+    },
+    {
+      "order": 11,
+      "slug": "dreemy-image-brief-separate-fabric-and-light",
+      "title": "Describe Fabric and Lighting Separately in a Dreemy Image Brief",
+      "readerQuestion": "How do I make a Dreemy image brief distinguish a garment’s material from the light falling on it?",
+      "releaseAt": "2026-12-22T09:00:00.000Z",
+      "notBefore": "2026-12-22T09:00:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-27",
+      "reviewedSha256": "0715b9621bca3a3530f201b7b371574863e9bf464418518d3ebbf59abf164bc1",
+      "wordCount": 250,
+      "editorialIntent": "Give the garment a material and a color, give the light a direction, and inspect one fold before changing the prompt.",
+      "sources": [
+        [
+          "Dreemy AI official FAQ",
+          "https://www.dreemy.ai/faqs"
+        ],
+        [
+          "Dreemy AI Terms of Service",
+          "https://www.dreemy.ai/terms"
+        ]
+      ]
+    },
+    {
+      "order": 12,
+      "slug": "dreemy-resume-a-story-from-the-last-open-choice",
+      "title": "Resume a Dreemy Story at the Last Unmade Decision",
+      "readerQuestion": "How can I return to a Dreemy story without resolving a choice the reader had left open?",
+      "releaseAt": "2026-12-29T09:00:00.000Z",
+      "notBefore": "2026-12-29T09:00:00.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-27",
+      "reviewedSha256": "e5456b13e8300d80513b74576cf1cbd0c0e5318d09ad2efce78e2e25e8dacd5a",
+      "wordCount": 245,
+      "editorialIntent": "Carry forward two settled facts and the exact decision still waiting for an answer.",
+      "sources": [
+        [
+          "Dreemy AI official FAQ",
+          "https://www.dreemy.ai/faqs"
+        ],
+        [
+          "Dreemy AI Terms of Service",
           "https://www.dreemy.ai/terms"
         ]
       ]
